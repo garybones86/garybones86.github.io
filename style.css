@@ -1,0 +1,93 @@
+body{
+  background-color:wheat;
+  font-family: 'Albert Sans', sans-serif;
+  cursor:cell;
+}
+  
+
+html{
+  scroll-behavior: smooth;
+}
+.logo {
+  height: 200px;
+  width: 200px;
+}
+
+
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 40%;
+}
+.section-title{
+  text-align: center;
+  font-style: bold;
+  font-size:20px;
+  font-weight:1000;
+  padding-bottom: 100px;
+}
+.skills{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: larger;
+}
+.p2 {
+  grid-column: 1/2;
+}
+.p22 {
+  grid-column: 2/3;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin: 0; 
+  font-family: 'Albert Sans', sans-serif;
+}
+
+h1 { font-size: 14px }
+h2 { font-size: 14px }
+h3 { font-size: 14px }
+.nav-list {
+  background-color:#2E1500;
+ display:flex;
+ justify-content: space-around;
+height: 30px;
+font-style: bold;
+
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.car{
+  text-align: center;
+  font-style: bold;
+  font-size:20px;
+  font-weight:1000;
+  padding-bottom: 100px;
+  color: #2E1500;
+  padding-left: 700px;
+
+}
+.about-me{
+ padding-top: 20px;
+  padding-left: 500px ;
+  padding-right: 500px;
+  font-size: larger;
+text-align: center;
+}
+
+.title-my-work{
+  text-align: center;
+  font-style: bold;
+  font-size:20px;
+  font-weight:1000;
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+
+
